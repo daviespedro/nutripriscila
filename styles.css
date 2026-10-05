@@ -131,6 +131,9 @@ header .w {
   align-items: center;
   gap: 10px;
 }
+.brand > span:last-child {
+  transform: translateY(4px);
+}
 .brand-mark {
   width: 44px;
   height: 44px;
