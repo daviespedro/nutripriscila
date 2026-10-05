@@ -131,9 +131,6 @@ header .w {
   align-items: center;
   gap: 10px;
 }
-.brand > span:last-child {
-  transform: translateY(4px);
-}
 .brand-mark {
   width: 44px;
   height: 44px;
@@ -154,6 +151,7 @@ header .w {
 }
 .brand b {
   display: block;
+  transform: translateY(4px);
   font:
     700 28px/1 "Cormorant Garamond",
     serif;
